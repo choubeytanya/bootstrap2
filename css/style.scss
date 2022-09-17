@@ -1,0 +1,267 @@
+@import "variable";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 15px;
+}
+
+.navbar-a {
+  color: $black !important;
+}
+.nav-active,
+.navbar-a:hover {
+  color: $leaf-green !important;
+}
+
+.banner {
+  .dropdown-box {
+    background-color: $leaf-green;
+    border-radius: 0;
+    border: 0;
+    color: $white;
+  }
+  .call-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    .mobile {
+      color: $leaf-green;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .search-btn {
+    background-color: $leaf-green;
+  }
+
+
+  .banner-top-heading {
+    font-size: 20px;
+    color: $leaf-green;
+  }
+  .banner-image-heading {
+    font-size: 50px;
+  }
+  .banner-btn {
+    background-color: $leaf-green;
+    border: none;
+    border-radius: 0;
+    &:hover {
+      background-color:$green-hover;
+    }
+  }
+
+  .dropdown-item{
+    line-height: 30px;
+  }
+}
+
+.order {
+  .featured-product {
+    font-size: 40px;
+  }
+  .featured-product::after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: $leaf-green;
+    content: "";
+    margin: 0 auto;
+  }
+  .slash {
+    font-size: 50px;
+    color: $leaf-green;
+  }
+  .active {
+    text-decoration: 2px underline $leaf-green;
+  }
+  .order-option {
+    display: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    .order-icon {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+    }
+  }
+  .product-image {
+    background-color: $background;
+    width: auto;
+    height: 230px;
+    img {
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  .product-detail {
+    &:hover {
+      .order-option {
+        display: block;
+        &:hover {
+          transform: rotate(1turn);
+          background-color: $leaf-green !important;
+          color: $white;
+          transition: transform 0.5s;
+        }
+      }
+    }
+  }
+  .order-option {
+    bottom: 0;
+    left: 0;
+    display: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    .order-icon {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+    }
+    &:hover {
+      transform: rotate(1turn);
+      background-color: $leaf-green !important;
+      color: $white;
+      transition: transform 0.5s;
+    }
+  }
+}
+
+.from-blog {
+  .blog-heading {
+    font-size: 40px;
+  }
+  .blog-heading::after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background:$leaf-green;
+    content: "";
+    margin: 0 auto;
+  }
+  .tips-heading {
+    font-size: 20px;
+  }
+
+  .blog-image {
+    width: 100%;
+  }
+}
+
+.contact {
+    background-color: $background;
+  .input-group-text {
+    background-color: $leaf-green;
+    color: $white;
+  }
+  .website-icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    .website-link {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+      background-color: $leaf-green !important;
+      .website-link {
+        color: $white !important;
+      }
+    }
+  }
+}
+
+.footer-section{
+    background-color: $background;
+}
+
+.carousel-box{
+    background-color: $background;
+}
+
+.flag-icon {
+  width: 15px;
+  height: 15px;
+  .flag-img {
+    height: 15px;
+  }
+}
+
+.img {
+  width: 100%;
+}
+.banner-content {
+    top: 27px;
+    left: 40px;
+}
+
+.item-box {
+  height: 250px;
+  .item-box-img {
+    height: 80%;
+  }
+}
+
+.carousel-icon {
+  width: auto;
+}
+
+.mid-banner-box {
+  height: 200px;
+  overflow: hidden;
+  .mid-banner-img {
+    width: 100%;
+  }
+  .mid-banner-content {
+    top: 30px;
+    right: 30px;
+  }
+}
+
+.latest-item {
+  .product-container {
+    background-color: $background;
+    height: 100px;
+    width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .left,
+  .right {
+    height: 30px;
+    width: 30px;
+  }
+  .item-heading {
+    font-size: 22px;
+  }
+}
+
+
+.card-button {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border: none;
+  img {
+    width: 100%;
+  }
+}

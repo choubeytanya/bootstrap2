@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 15px; }
+
+.navbar-a {
+  color: black !important; }
+
+.nav-active,
+.navbar-a:hover {
+  color: #7fad39 !important; }
+
+.banner .dropdown-box {
+  background-color: #7fad39;
+  border-radius: 0;
+  border: 0;
+  color: white; }
+.banner .call-icon {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%; }
+  .banner .call-icon .mobile {
+    color: #7fad39;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+.banner .search-btn {
+  background-color: #7fad39; }
+.banner .banner-top-heading {
+  font-size: 20px;
+  color: #7fad39; }
+.banner .banner-image-heading {
+  font-size: 50px; }
+.banner .banner-btn {
+  background-color: #7fad39;
+  border: none;
+  border-radius: 0; }
+  .banner .banner-btn:hover {
+    background-color: #506d23; }
+.banner .dropdown-item {
+  line-height: 30px; }
+
+.order .featured-product {
+  font-size: 40px; }
+.order .featured-product::after {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  height: 4px;
+  width: 80px;
+  background: #7fad39;
+  content: "";
+  margin: 0 auto; }
+.order .slash {
+  font-size: 50px;
+  color: #7fad39; }
+.order .active {
+  text-decoration: 2px underline #7fad39; }
+.order .order-option {
+  display: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%; }
+  .order .order-option .order-icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px; }
+.order .product-image {
+  background-color: #F3F6FA;
+  width: auto;
+  height: 230px; }
+  .order .product-image img {
+    width: 100%;
+    margin: auto; }
+.order .product-detail:hover .order-option {
+  display: block; }
+  .order .product-detail:hover .order-option:hover {
+    transform: rotate(1turn);
+    background-color: #7fad39 !important;
+    color: white;
+    transition: transform 0.5s; }
+.order .order-option {
+  bottom: 0;
+  left: 0;
+  display: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%; }
+  .order .order-option .order-icon {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px; }
+  .order .order-option:hover {
+    transform: rotate(1turn);
+    background-color: #7fad39 !important;
+    color: white;
+    transition: transform 0.5s; }
+
+.from-blog .blog-heading {
+  font-size: 40px; }
+.from-blog .blog-heading::after {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  height: 4px;
+  width: 80px;
+  background: #7fad39;
+  content: "";
+  margin: 0 auto; }
+.from-blog .tips-heading {
+  font-size: 20px; }
+.from-blog .blog-image {
+  width: 100%; }
+
+.contact {
+  background-color: #F3F6FA; }
+  .contact .input-group-text {
+    background-color: #7fad39;
+    color: white; }
+  .contact .website-icon-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+    .contact .website-icon-container .website-link {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    .contact .website-icon-container:hover {
+      background-color: #7fad39 !important; }
+      .contact .website-icon-container:hover .website-link {
+        color: white !important; }
+
+.footer-section {
+  background-color: #F3F6FA; }
+
+.carousel-box {
+  background-color: #F3F6FA; }
+
+.flag-icon {
+  width: 15px;
+  height: 15px; }
+  .flag-icon .flag-img {
+    height: 15px; }
+
+.img {
+  width: 100%; }
+
+.banner-content {
+  top: 27px;
+  left: 40px; }
+
+.item-box {
+  height: 250px; }
+  .item-box .item-box-img {
+    height: 80%; }
+
+.carousel-icon {
+  width: auto; }
+
+.mid-banner-box {
+  height: 200px;
+  overflow: hidden; }
+  .mid-banner-box .mid-banner-img {
+    width: 100%; }
+  .mid-banner-box .mid-banner-content {
+    top: 30px;
+    right: 30px; }
+
+.latest-item .product-container {
+  background-color: #F3F6FA;
+  height: 100px;
+  width: 100px; }
+  .latest-item .product-container img {
+    width: 100%; }
+.latest-item .left,
+.latest-item .right {
+  height: 30px;
+  width: 30px; }
+.latest-item .item-heading {
+  font-size: 22px; }
+
+.card-button {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border: none; }
+  .card-button img {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
