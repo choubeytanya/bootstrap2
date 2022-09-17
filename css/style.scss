@@ -8,6 +8,14 @@
   font-size: 15px;
 }
 
+.flag-icon {
+    width: 15px;
+    height: 15px;
+    .flag-img {
+      height: 15px;
+    }
+}
+
 .navbar-a {
   color: $black !important;
 }
@@ -17,6 +25,10 @@
 }
 
 .banner {
+  .banner-content {
+    top: 27px;
+    left: 40px;
+  }
   .dropdown-box {
     background-color: $leaf-green;
     border-radius: 0;
@@ -38,7 +50,6 @@
     background-color: $leaf-green;
   }
 
-
   .banner-top-heading {
     font-size: 20px;
     color: $leaf-green;
@@ -51,12 +62,15 @@
     border: none;
     border-radius: 0;
     &:hover {
-      background-color:$green-hover;
+      background-color: $green-hover;
     }
   }
 
-  .dropdown-item{
+  .dropdown-item {
     line-height: 30px;
+  }
+  .img {
+    width: 100%;
   }
 }
 
@@ -150,7 +164,7 @@
     right: 0;
     height: 4px;
     width: 80px;
-    background:$leaf-green;
+    background: $leaf-green;
     content: "";
     margin: 0 auto;
   }
@@ -164,7 +178,7 @@
 }
 
 .contact {
-    background-color: $background;
+  background-color: $background;
   .input-group-text {
     background-color: $leaf-green;
     color: $white;
@@ -188,31 +202,21 @@
   }
 }
 
-.footer-section{
-    background-color: $background;
-}
-
-.carousel-box{
-    background-color: $background;
-}
-
-.flag-icon {
-  width: 15px;
-  height: 15px;
-  .flag-img {
-    height: 15px;
+.footer-section {
+  background-color: $background;
+  .card-button {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: none;
+    img {
+      width: 100%;
+    }
   }
 }
 
-.img {
-  width: 100%;
-}
-.banner-content {
-    top: 27px;
-    left: 40px;
-}
-
 .item-box {
+  background-color: $background;
   height: 250px;
   .item-box-img {
     height: 80%;
@@ -256,12 +260,3 @@
 }
 
 
-.card-button {
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-  border: none;
-  img {
-    width: 100%;
-  }
-}

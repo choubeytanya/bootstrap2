@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
   font-size: 15px; }
 
+.flag-icon {
+  width: 15px;
+  height: 15px; }
+  .flag-icon .flag-img {
+    height: 15px; }
+
 .navbar-a {
   color: black !important; }
 
@@ -12,6 +18,9 @@
 .navbar-a:hover {
   color: #7fad39 !important; }
 
+.banner .banner-content {
+  top: 27px;
+  left: 40px; }
 .banner .dropdown-box {
   background-color: #7fad39;
   border-radius: 0;
@@ -41,6 +50,8 @@
     background-color: #506d23; }
 .banner .dropdown-item {
   line-height: 30px; }
+.banner .img {
+  width: 100%; }
 
 .order .featured-product {
   font-size: 40px; }
@@ -138,24 +149,16 @@
 
 .footer-section {
   background-color: #F3F6FA; }
-
-.carousel-box {
-  background-color: #F3F6FA; }
-
-.flag-icon {
-  width: 15px;
-  height: 15px; }
-  .flag-icon .flag-img {
-    height: 15px; }
-
-.img {
-  width: 100%; }
-
-.banner-content {
-  top: 27px;
-  left: 40px; }
+  .footer-section .card-button {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border: none; }
+    .footer-section .card-button img {
+      width: 100%; }
 
 .item-box {
+  background-color: #F3F6FA;
   height: 250px; }
   .item-box .item-box-img {
     height: 80%; }
@@ -184,13 +187,5 @@
   width: 30px; }
 .latest-item .item-heading {
   font-size: 22px; }
-
-.card-button {
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-  border: none; }
-  .card-button img {
-    width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
