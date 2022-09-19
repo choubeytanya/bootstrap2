@@ -24,7 +24,6 @@
 .banner .dropdown-box {
   background-color: #7fad39;
   border-radius: 0;
-  border: 0;
   color: white; }
 .banner .call-icon {
   height: 30px;
@@ -82,7 +81,7 @@
     font-size: 15px; }
 .order .product-image {
   background-color: #F3F6FA;
-  width: auto;
+  width: 230px;
   height: 230px; }
   .order .product-image img {
     width: 100%;
@@ -187,5 +186,44 @@
   width: 30px; }
 .latest-item .item-heading {
   font-size: 22px; }
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .mid-banner-box .heading-section {
+    font-size: 22px; }
+
+  .banner .dropdown-item {
+    line-height: 25px; } }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .banner .banner-image-heading {
+    font-size: 35px; }
+  .banner .banner-top-heading {
+    font-size: 15px; }
+  .banner .dropdown-item {
+    line-height: 18px; }
+
+  .mid-banner-box .heading-section {
+    font-size: 20px; }
+  .mid-banner-box .mid-banner-content {
+    top: 20px;
+    right: 20px; }
+
+  .latest-item .left, .latest-item .right {
+    width: 25px;
+    height: 25px; }
+
+  .item-box {
+    height: 195px; }
+    .item-box .item-box-img {
+      height: auto; }
+
+  .order .product-image {
+    height: 275px; }
+
+  .newsletter {
+    margin-top: 50px; }
+
+  .footer-section .container {
+    flex-direction: column;
+    align-items: center; } }
 
 /*# sourceMappingURL=style.css.map */

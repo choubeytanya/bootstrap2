@@ -32,7 +32,6 @@
   .dropdown-box {
     background-color: $leaf-green;
     border-radius: 0;
-    border: 0;
     color: $white;
   }
   .call-icon {
@@ -110,7 +109,7 @@
   }
   .product-image {
     background-color: $background;
-    width: auto;
+    width: 230px;
     height: 230px;
     img {
       width: 100%;
@@ -259,4 +258,5 @@
   }
 }
 
+@import "media";
 
