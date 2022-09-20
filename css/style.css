@@ -234,7 +234,12 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .top-header .container {
     flex-direction: column; }
+  .top-header .email, .top-header .contact-icons {
+    padding: 0 !important; }
   .top-header .email-content, .top-header .shipping, .top-header .login {
+    font-size: 11px;
+    padding: 0 !important; }
+  .top-header .envelope {
     font-size: 11px; }
 
   .form-section {

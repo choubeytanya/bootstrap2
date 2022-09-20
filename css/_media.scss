@@ -74,7 +74,14 @@
     .container{
         flex-direction: column;
     }
+    .email,.contact-icons{
+        padding: 0 !important;
+    }
     .email-content,.shipping,.login{
+        font-size: 11px;
+        padding:0 !important;
+    }
+    .envelope{
         font-size: 11px;
     }
 }
