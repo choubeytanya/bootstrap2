@@ -8,11 +8,20 @@
   font-size: 15px;
 }
 
+.top-header{
+  .email, .contact-icons, .language{
+    &::after{
+      content:"|" ;
+      
+      }
+  }
+}
+
 .flag-icon {
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     .flag-img {
-      height: 15px;
+      height:12px;
     }
 }
 
